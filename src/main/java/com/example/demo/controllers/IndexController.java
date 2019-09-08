@@ -4,6 +4,7 @@ import org.springframework.stereotype.Controller;
 import org.springframework.ui.Model;
 import org.springframework.web.bind.annotation.RequestMapping;
 
+//branch versio2
 @Controller
 public class IndexController {
 
@@ -12,5 +13,7 @@ public class IndexController {
 		model.addAttribute("message","Hello World from controller");
 		return "index";
 	}
-	//changes Here
+	
+	
+	
 }
