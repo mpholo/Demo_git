@@ -12,4 +12,5 @@ public class IndexController {
 		model.addAttribute("message","Hello World from controller");
 		return "index";
 	}
+	//changes Here
 }
